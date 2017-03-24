@@ -30,7 +30,7 @@
 
       var len = itemsArray.length;
 
-      if(stringOfItems == "") {
+      if(len == 0) {
         result.msg = 'Please enter data first';
         result.color = 'red';
       }
